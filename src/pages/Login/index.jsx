@@ -18,6 +18,7 @@ const Login = () => {
     try {
       await signInWithGoogle();
     } catch (e) {
+      console.log(e);
       toast.error('authentication failed');
     }
   };

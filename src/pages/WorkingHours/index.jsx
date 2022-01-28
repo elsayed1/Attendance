@@ -49,7 +49,7 @@ const WorkingHours = () => {
                 <StyledTableCell align="center">Check In</StyledTableCell>
                 <StyledTableCell align="center">Check Out</StyledTableCell>
                 <StyledTableCell align="center">Break Time</StyledTableCell>
-                <StyledTableCell align="center">Worked Minutes</StyledTableCell>
+                <StyledTableCell align="center">Worked Hours</StyledTableCell>
               </TableRow>
             </TableHead>
             <TableBody>
