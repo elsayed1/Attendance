@@ -65,7 +65,7 @@ const Home = () => {
   }, [user.uid]);
 
   return (
-    <Grid container direction="column" spacing={1}>
+    <Grid container direction="column" spacing={1} component={Box} mt={5}>
       <Grid item>
         <WorkHours expectedHours={hours.expected} actualHours={hours.actual} />
       </Grid>
