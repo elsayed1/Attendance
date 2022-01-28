@@ -9,7 +9,16 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import './App.css';
 
-const theme = createTheme();
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#000'
+    },
+    secondary: {
+      main: '#FE6B8B'
+    }
+  }
+});
 
 function App() {
   return (

@@ -13,7 +13,7 @@ const ResponsiveAppBar = ({ pages }) => {
   const navigate = useNavigate();
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: 'black' }}>
+    <AppBar position="static">
       <Container disableGutters>
         <Toolbar>
           <Box sx={{ flexGrow: 1 }}>
