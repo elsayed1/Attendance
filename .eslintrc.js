@@ -3,13 +3,12 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  extends: ['react-app', 'airbnb', 'plugin:prettier/recommended'],
+  extends: ['react-app', 'airbnb', 'plugin:prettier/recommended', 'plugin:storybook/recommended'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true
     },
     ecmaVersion: 'latest',
-
     sourceType: 'module'
   },
   plugins: [
@@ -28,7 +27,6 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
     'jsx-a11y/click-events-have-key-events': 'off',
-
     'react/jsx-wrap-multilines': 'off',
     'react/jsx-curly-newline': 'off',
     'react/jsx-indent-props': 'off',

@@ -26,8 +26,17 @@ InputTime.defaultProps = {
 };
 
 InputTime.propTypes = {
+  /**
+   * Input shown label
+   */
   label: PropTypes.string.isRequired,
+  /**
+   * Value of the input
+   */
   value: PropTypes.string,
+  /**
+   * Input onChange function
+   */
   onChange: PropTypes.func.isRequired
 };
 
