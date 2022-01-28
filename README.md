@@ -1,6 +1,15 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## To Start In Dev Mode :
+
+- Clone the repo localy : `git clone https://github.com/elsayed1/Attendance.git`
+
+#### In Terminal Run
+
+- `cd Attendance`
+- `npm install`
+- To run the app run `npm start`
+- To run the docs run `npm run storybook`
 
 ## Available Scripts
 
