@@ -18,7 +18,7 @@ const convertHoursToMinutes = (time) =>
 const getWorkingMinutesInDay = (day) => {
   const arriveTimeInMinutes = convertHoursToMinutes(day.arriveTime);
   const exitTimeInMinutes = convertHoursToMinutes(day.exitTime);
-  const totalWorkingMinutes = exitTimeInMinutes - arriveTimeInMinutes - day.launchTime || 0;
+  const totalWorkingMinutes = exitTimeInMinutes - arriveTimeInMinutes - (day.launchTime || 0);
   return totalWorkingMinutes;
 };
 

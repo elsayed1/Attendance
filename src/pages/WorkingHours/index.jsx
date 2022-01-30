@@ -58,7 +58,7 @@ const WorkingHours = () => {
                   <StyledTableCell>{user.displayName}</StyledTableCell>
                   <StyledTableCell align="center">{day.arriveTime}</StyledTableCell>
                   <StyledTableCell align="center">{day.exitTime}</StyledTableCell>
-                  <StyledTableCell align="center">{day.launchTime}</StyledTableCell>
+                  <StyledTableCell align="center">{day.launchTime || '_'}</StyledTableCell>
                   <StyledTableCell align="center">
                     {convertMinutesToHours(getWorkingMinutesInDay(day))}
                   </StyledTableCell>
